@@ -1,0 +1,41 @@
+{
+  "checked_at": "2026-09-08T08:28:31Z",
+  "online": {
+    "resV": "20260907060153249p0",
+    "resC": "87fe6556f9bf37ed3190ee87ec90c126",
+    "codeV": "4424432",
+    "artifactV": "4423139",
+    "sha256": "69e9bec66bdb2f24a5dbeb13e43e79cad86c46d55ce75bf7457e454d4ae47ea8"
+  },
+  "outertest1": {
+    "resV": "20260831060133478p0",
+    "resC": "c1ce729d59ad48d7c39348bf23577a51",
+    "codeV": "4383953",
+    "artifactV": "4379903",
+    "sha256": "daed160cd915d52df5095f5a038c41d069cbcdf0b22e374fe7ac3c2a21d785b1"
+  },
+  "startup": {
+    "patch_ids": [
+      "4290681"
+    ],
+    "files": {
+      "4290681": {
+        "4290680/4290680-20260824160411-client_startup_patch.zip": "e14f5b75fe1bd5d7f55c7ad5887223e5"
+      }
+    },
+    "sha256": "7fa08fddef793783e87b42a36564ccc92101bc3a0d4988c1117ec3fa8963d093"
+  },
+  "consec_failures": 0,
+  "availability": {
+    "fastpatch:4424432": {
+      "url": "https://l50.gdl.netease.com/fastpatch/trunk/4424432/fastpatch.zip",
+      "status": 503,
+      "reachable": false
+    },
+    "startup:4290680/4290680-20260824160411-client_startup_patch.zip": {
+      "url": "https://l50.gph.netease.com/4290680/4290680-20260824160411-client_startup_patch.zip",
+      "status": 200,
+      "reachable": true
+    }
+  }
+}
